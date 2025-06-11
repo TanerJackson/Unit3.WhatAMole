@@ -1,9 +1,21 @@
-
 .hole {
+  background-color: pink;
   background: url("/hole.png") no-repeat center/contain;
 }
 
 .mole {
   background-image: url("/mole.png");
 }
+main {
+  height: 80vh;
+  width: 80vw;
+}
+.GameArea {
+  display: grid;
+  grid-column: 150px 150px 150px;
+  grid-row: 150px 150px 150px;
+}
 
+body {
+  background-color: lightgray;
+}
